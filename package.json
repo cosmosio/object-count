@@ -1,0 +1,39 @@
+{
+  "name": "object-count",
+  "description": "returns the size of an array or the number of properties of an object",
+  "version": "0.0.1",
+  "homepage": "https://github.com/cosmosio/object-count",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.github.com/cosmosio/object-count/master/LICENSE"
+    }
+  ],
+  "files": [
+    "LICENSE",
+    "index.js"
+  ],
+  "author": "Olivier Scherrer <pode.fr@gmail.com>",
+  "keywords": [
+    "count",
+    "size",
+    "object",
+    "array"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:cosmosio/object-count.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cosmosio/object-count/issues"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "main": "index.js",
+  "devDependencies": {
+    "jasmine-node": "~1.14.3",
+    "chai": "~1.9.1",
+    "mocha": "~1.18.2"
+  }
+}
