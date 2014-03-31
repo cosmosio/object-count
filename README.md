@@ -1,7 +1,7 @@
 Object count
 =============
 
-Count the number of properties in an object, or returns the number of items in an array.
+Count the number of properties in an object, or return the number of items in an array. It doesn't look up in the prototype chain.
 
 Installation
 ============
